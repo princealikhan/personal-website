@@ -61,7 +61,7 @@ const Home = () => {
           Alex has toured the world with his music. His journey started with Cirque inspired scoring and vocals.
           He has worked with Warner Brothers, Universal Music Group, EMI and Cirque du Soleil. His collaborations have been nominated for Grammys.
           In Hang Zhou China, Alex worked with the creation team on the music & playback for Cirque du Soleil's Chinese Resident Show <br/>
-          "Cirque X the Land of Fantasy." come back to hear fresh music creations.   
+          "Cirque X the Land of Fantasy." Come back to hear fresh music creations.   
         </Typography>
 
         <a href="https://geo.music.apple.com/us/album/7-steps-to-heaven/1210493562?mt=1&app=music"   style={{
