@@ -50,7 +50,7 @@ const Home = () => {
               "Music Producer",
               "Song Writer"
             ].map((line,key) => (
-              <span id={key} style={{fontWeight:'bold'}}>
+              <span key={key} style={{fontWeight:'bold'}}>
                 {line}
               </span>
             ))}
@@ -64,6 +64,15 @@ const Home = () => {
           "Cirque X the Land of Fantasy."      
         </Typography>
 
+        <a href="https://geo.music.apple.com/us/album/7-steps-to-heaven/1210493562?mt=1&app=music"   style={{
+            display:'inline-block',
+            overflow: 'hidden',
+            background: 'url(https://linkmaker.itunes.apple.com/en-us/badge-lrg.svg?releaseDate=2017-03-01&kind=album&bubble=apple_music)',
+            noRepeat: true,
+            width:158,
+            height:45,
+            marginTop: 12
+        }}></a>
 
         <Typography variant="h3" gutterBottom style={{marginTop: 32}}>
           Creations
@@ -79,11 +88,6 @@ const Home = () => {
         </Typography>
 
         <Grid container  spacing={2}>
-          <Grid item xs={12} md={4} sm={6}>
-            <Paper style={{ textAlign: 'center'}}>
-              <iframe frameBorder="no" height="460px" name="album" src="//widget.cdbaby.com/2c0b5a5b-3af1-411d-9ed3-365121dc271c/album/light/opaque"></iframe>
-            </Paper>
-          </Grid>
           <Grid item xs={12} md={4} sm={6}>
             <Paper>
               <Typography variant="h6" style={{padding: 16}}>
@@ -121,7 +125,7 @@ const Home = () => {
             </Paper>
           </Grid>
 
-          <Grid item xs={12} md={4} sm={6}>
+          <Grid item xs={12} md={8} sm={6}>
             <Paper>
               <TwitterTimelineEmbed
                 sourceType="profile"
