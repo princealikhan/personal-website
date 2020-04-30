@@ -46,7 +46,7 @@ const Home = () => {
           I'm a &nbsp;
           <TextLoop>
             {[
-              "Vocalist Guitarist Cellist Composer",
+              "Vocalist Guitarist Cellist & Composer",
               "Music Producer",
               "Song Writer"
             ].map((line,key) => (
@@ -60,8 +60,8 @@ const Home = () => {
         <Typography variant="body2" gutterBottom style={{color: 'gray',maxWidth: 640}}>
           Alex has toured the world with his music. His journey started with Cirque inspired scoring and vocals.
           He has worked with Warner Brothers, Universal Music Group, EMI and Cirque du Soleil. His collaborations have been nominated for Grammys.
-          In Hang Zhou China, Alex worked with the creation team on the music & playback for Cirque du Soleil's New Chinese Resident Show <br/>
-          "Cirque X the Land of Fantasy."      
+          In Hang Zhou China, Alex worked with the creation team on the music & playback for Cirque du Soleil's Chinese Resident Show <br/>
+          "Cirque X the Land of Fantasy." come back to hear fresh music creations.   
         </Typography>
 
         <a href="https://geo.music.apple.com/us/album/7-steps-to-heaven/1210493562?mt=1&app=music"   style={{
@@ -79,7 +79,7 @@ const Home = () => {
         </Typography>
 
         <Card style={{marginBottom: 24}}>
-          <iframe width="100%" height="460" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
+          <iframe width="100%" height="960" scrolling="yes" frameBorder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/3525754&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"></iframe>
         </Card>
 
        
