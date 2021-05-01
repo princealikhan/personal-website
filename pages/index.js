@@ -45,7 +45,7 @@ const Home = () => {
           I'm a &nbsp;
           <TextLoop>
             {[
-              "Vocalist Guitarist Cellist & Composer",
+              "Vocalist",
               "Music Producer",
               "Song Writer"
             ].map((line,key) => (
